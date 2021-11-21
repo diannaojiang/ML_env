@@ -1,16 +1,20 @@
 name: pytorch
 channels:
-  - rapidsai-nightly 
-  - nvidia 
-  - conda-forge 
-  - legate 
+  - rapidsai-nightly
+  - rapidsai
+  - nvidia
+  - pytorch-nightly
   - pytorch
+  - legate 
+  - conda-forge 
   - defaults
 dependencies:
   - python=3.8
-  - ipykernel
   - cudatoolkit=11.5
+  - rapids=21.12
+  - ipykernel
   - pytorch
+  - pytorch-gpu
   - torchvision
   - torchaudio
   - astunparse
@@ -27,6 +31,5 @@ dependencies:
   - six
   - requests
   - dataclasses
-  - rapids=21.12
   - legate-core
   - cunumeric
