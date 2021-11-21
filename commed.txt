@@ -1,0 +1,13 @@
+conda create -n rapids-21.12 -c rapidsai-nightly -c nvidia -c conda-forge rapids=21.12 python=3.8 cudatoolkit=11.2
+
+conda install -c nvidia -c conda-forge -c legate legate-core
+
+conda install -c nvidia -c conda-forge -c legate cunumeric
+
+conda install -c pytorch pytorch torchvision torchaudio cudatoolkit=11.3
+
+conda install ipykernel
+
+conda install astunparse numpy ninja pyyaml mkl mkl-include setuptools cmake cffi typing_extensions future six requests dataclasses
+
+conda install -c rapidsai-nightly -c nvidia -c conda-forge -c legate -c pytorch rapids=21.12 python=3.8 cudatoolkit=11.5 legate-core cunumeric pytorch torchvision torchaudio ipykernel astunparse numpy ninja pyyaml mkl mkl-include setuptools cmake cffi typing_extensions future six requests dataclasses

@@ -1,0 +1,32 @@
+name: pytorch
+channels:
+  - rapidsai-nightly 
+  - nvidia 
+  - conda-forge 
+  - legate 
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - ipykernel
+  - cudatoolkit=11.5
+  - pytorch
+  - torchvision
+  - torchaudio
+  - astunparse
+  - numpy
+  - ninja
+  - pyyaml
+  - mkl
+  - mkl-include
+  - setuptools
+  - cmake
+  - cffi
+  - typing_extensions
+  - future
+  - six
+  - requests
+  - dataclasses
+  - rapids=21.12
+  - legate-core
+  - cunumeric
