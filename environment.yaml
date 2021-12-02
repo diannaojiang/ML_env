@@ -1,12 +1,12 @@
 name: pytorch1.10
 channels:
-  - pytorch
   - rapidsai
-  - legate
-  - nvidia
-  - rapidsai-nightly
   - pytorch-nightly
+  - rapidsai-nightly
+  - nvidia
   - conda-forge
+  - legate
+  - pytorch
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
